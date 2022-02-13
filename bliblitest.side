@@ -1,0 +1,274 @@
+{
+  "id": "36cdbd93-d107-46ed-959e-f6eb29f109be",
+  "version": "2.0",
+  "name": "bliblitest",
+  "url": "https://www.blibli.com/",
+  "tests": [{
+    "id": "7454a797-bde8-4dd0-ba4e-1c0aa2ffa885",
+    "name": "bliblitest1",
+    "commands": [{
+      "id": "e23d4f6c-b810-48e9-83aa-1f8c86493671",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.blibli.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bc08965-41be-42cb-8e81-534e63ac2a32",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1062x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d393535-0ee5-4db7-8278-70bf44cd5b5a",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.b-ellipsis:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='blibliApp']/div/header/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6343f6b-aa05-4523-805d-5c6fee07b561",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.b-ellipsis:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='blibliApp']/div/header/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "iphone 13"
+    }, {
+      "id": "33c3fcb4-f66a-4943-aaf0-6f0a95d1c015",
+      "comment": "",
+      "command": "click",
+      "target": "css=.searchbox__search > img",
+      "targets": [
+        ["css=.searchbox__search > img", "css:finder"],
+        ["xpath=//img[@alt='Cari']", "xpath:img"],
+        ["xpath=//div[@id='blibliApp']/div/header/div[2]/div[2]/div/div/div[2]/button/img", "xpath:idRelative"],
+        ["xpath=//button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f97d275-d2be-49e5-8af6-9238f624a63b",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.b-ellipsis:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='blibliApp']/div/header/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe3a7980-c503-4e3d-b300-007e03139013",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.b-ellipsis:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='blibliApp']/div/header/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d90b49a0-46d2-4869-a75c-67c224246603",
+      "comment": "",
+      "command": "click",
+      "target": "css=.searchbox__search",
+      "targets": [
+        ["css=.searchbox__search", "css:finder"],
+        ["xpath=//div[@id='blibliApp']/div/header/div[2]/div[2]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56a09354-0ce6-4242-927f-1de363886ca2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.searchbox__action > img",
+      "targets": [
+        ["css=.searchbox__action > img", "css:finder"],
+        ["xpath=//img[contains(@src,'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxwYXRoIGQ9Ik0xMiAyQzYuNSAyIDIgNi41IDIgMTJzNC41IDEwIDEwIDEwIDEwLTQuNSAxMC0xMFMxNy41IDIgMTIgMnptNC42IDE0LjZjLS4yLjItLjYuNC0uOS40LS4zIDAtLjYtLjEtLjktLjRMMTIgMTMuOGwtMi44IDIuOWMtLjIuMi0uNi4zLS45LjMtLjMgMC0uNi0uMS0uOS0uNC0uNS0uNS0uNS0xLjMgMC0xLjhsMi44LTIuOS0yLjgtMi43Yy0uNS0uNS0uNS0xLjMgMC0xLjhzMS4zLS41IDEuOCAwbDIuOSAyLjggMi44LTIuOWMuNS0uNSAxLjMtLjUgMS44IDBzLjUgMS4zIDAgMS44TDEzLjggMTJsMi45IDIuOGMuNC41LjQgMS4zLS4xIDEuOHoiIGlkPSJhIi8+PC9kZWZzPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PG1hc2sgaWQ9ImIiIGZpbGw9IiNmZmYiPjx1c2UgeGxpbms6aHJlZj0iI2EiLz48L21hc2s+PGcgbWFzaz0idXJsKCNiKSIgZmlsbD0iIzg1ODU4NSI+PHBhdGggZD0iTTAgMGgyNHYyNEgweiIvPjwvZz48L2c+PC9zdmc+')]", "xpath:img"],
+        ["xpath=//div[@id='blibliApp']/div/header/div[2]/div[2]/div/div/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "969ca778-9259-4c64-8100-4fbbd507c8a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.title",
+      "targets": [
+        ["css=.title", "css:finder"],
+        ["xpath=//div[@id='blibliApp']/div/header/div[2]/div[2]/div/div[3]/div/div[2]/div[2]/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'iphone 13')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bfa6fe3-d1df-4779-9d60-c609b0b34b2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.skeleton-container__left__main-filter__filters:nth-child(1) > .filter-content:nth-child(4)",
+      "targets": [
+        ["css=.skeleton-container__left__main-filter__filters:nth-child(1) > .filter-content:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='productListingAgeRestrictedFilter']/div/section/div/div[4]", "xpath:idRelative"],
+        ["xpath=//section/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e07280c5-af82-49f2-9aa8-5a09754242ef",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.b-ellipsis:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='blibliApp']/div/header/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5f399ef-bbf0-4b62-80f6-91e7d6b9de6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active > div",
+      "targets": [
+        ["css=.active > div", "css:finder"],
+        ["xpath=//div[@id='blibliApp']/div/header/div[2]/div[2]/div/div[3]/div/div/div[2]/ul/li/div", "xpath:idRelative"],
+        ["xpath=//li/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84874dff-78ea-4a76-ab0a-c228a48030fd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.searchbox__search",
+      "targets": [
+        ["css=.searchbox__search", "css:finder"],
+        ["xpath=//div[@id='blibliApp']/div/header/div[2]/div[2]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e621dbbc-1374-4d02-a757-e23c88e79513",
+      "comment": "",
+      "command": "click",
+      "target": "css=.searchbox__search",
+      "targets": [
+        ["css=.searchbox__search", "css:finder"],
+        ["xpath=//div[@id='blibliApp']/div/header/div[2]/div[2]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a6d018a-0564-4208-92f3-75c22b11ab04",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.searchbox__search",
+      "targets": [
+        ["css=.searchbox__search", "css:finder"],
+        ["xpath=//div[@id='blibliApp']/div/header/div[2]/div[2]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d5d961f-f7f3-48c1-be77-c4affabb6d39",
+      "comment": "",
+      "command": "click",
+      "target": "css=#seller > .drop-down-filter-label",
+      "targets": [
+        ["css=#seller > .drop-down-filter-label", "css:finder"],
+        ["xpath=//div[@id='seller']/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Tipe seller')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba46e193-1437-453f-a30f-777f9bb61d85",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .drop-down-container-row > .drop-down-container-row-name",
+      "targets": [
+        ["css=div:nth-child(2) > .drop-down-container-row > .drop-down-container-row-name", "css:finder"],
+        ["xpath=//div[@id='quickFilterMain']/div/section/div/div[2]/div/div[2]/div/label/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Official Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "740015dd-1a4f-4c9a-97bd-36314663a140",
+      "comment": "",
+      "command": "click",
+      "target": "css=.drop-down-container-buttons-apply",
+      "targets": [
+        ["css=.drop-down-container-buttons-apply", "css:finder"],
+        ["xpath=//div[@id='quickFilterMain']/div/section/div/div[2]/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Simpan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e684536f-4a7a-47b3-9e86-41b9deb711ba",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Online Mall Blibli.com, Sensasi Belanja Online Shop ala Mall",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "197ffb69-2ce7-4bc5-b500-125644ed685a",
+      "comment": "",
+      "command": "//close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a0e1404-fc6e-4593-bd29-4a527d473cd6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.cart__amt",
+      "targets": [
+        ["css=.cart__amt", "css:finder"],
+        ["xpath=//div[@id='blibliApp']/div/header/div[2]/div[3]/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0db6950-71c2-43d3-899e-523221660499",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cart__amt",
+      "targets": [
+        ["css=.cart__amt", "css:finder"],
+        ["xpath=//div[@id='blibliApp']/div/header/div[2]/div[3]/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bde667e4-7638-4a32-936e-d9213d1d8fa7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7454a797-bde8-4dd0-ba4e-1c0aa2ffa885"]
+  }],
+  "urls": ["https://www.blibli.com/"],
+  "plugins": []
+}
